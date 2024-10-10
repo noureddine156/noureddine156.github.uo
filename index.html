@@ -4,36 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nourddine</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <header class="text-center py-5">
         <h1>Nourddine</h1>
-        <p>Web Developer</p>
+        <p class="lead">Web Developer</p>
     </header>
     
-    <section class="about">
-        <h2>About Me</h2>
-        <p>I am a passionate web developer with experience in creating dynamic and responsive websites.</p>
-    </section>
+    <div class="container">
+        <section class="about my-5">
+            <h2>About Me</h2>
+            <p>I am a passionate web developer with experience in creating dynamic and responsive websites.</p>
+        </section>
 
-    <section class="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li><a href="#">Project 1</a></li>
-            <li><a href="#">Project 2</a></li>
-            <li><a href="#">Project 3</a></li>
-        </ul>
-    </section>
+        <section class="projects my-5">
+            <h2>Projects</h2>
+            <ul class="list-unstyled">
+                <li><a href="#" class="btn btn-primary">Project 1</a></li>
+                <li><a href="#" class="btn btn-primary">Project 2</a></li>
+                <li><a href="#" class="btn btn-primary">Project 3</a></li>
+            </ul>
+        </section>
 
-    <section class="contact">
-        <h2>Contact</h2>
-        <p>Email: noureddinearbi90@gmail.com</p>
-        <a href="cv.pdf" class="download-btn" download>Download CV</a>
-    </section>
+        <section class="contact my-5">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:noureddinearbi90@gmail.com">noureddinearbi90@gmail.com</a></p>
+            <a href="cv.pdf" class="btn btn-success" download>Download CV</a>
+        </section>
+    </div>
 
-    <footer>
+    <footer class="text-center py-4">
         <p>&copy; 2024 Nourddine</p>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
